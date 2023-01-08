@@ -12,7 +12,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.start-quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -23,7 +32,7 @@ body {
     margin: 4px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     border-radius: 5px;
     font-size: 14px;
     color:antiquewhite;
@@ -33,10 +42,15 @@ body {
     background-color:slateblue;
     color: white;
     box-shadow: 0 10px 16px 0 rgba(22, 20, 24, 0.227), 0 10px 20px 0 rgba(22, 20, 24, 0.227);
+    cursor: pointer;
 }
 
 .button:active {
     background-color: slateblue;
     color: white;
     transform: translateY(1px);
+}
+
+h4 {
+    font-size: 18px;
 }
