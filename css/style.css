@@ -9,9 +9,9 @@ body {
 }
 
 .questions {
-    display: flex;
+    display: block;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin-left: 30%;
     margin-right: 30%;
