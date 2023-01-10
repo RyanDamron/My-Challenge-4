@@ -54,3 +54,13 @@ body {
 h4 {
     font-size: 18px;
 }
+
+#score-board {
+    display: none;
+}
+
+#score-board:hover {
+    /* background-color:rgb(194, 191, 191); */
+    box-shadow: 0 10px 16px 0 rgba(22, 20, 24, 0.227), 0 10px 20px 0 rgba(22, 20, 24, 0.227);
+    cursor: pointer;
+}
